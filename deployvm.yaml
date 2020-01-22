@@ -1,0 +1,11 @@
+pool:
+  name: Azure Pipelines
+steps:
+- task: AzureResourceGroupDeployment@2
+  displayName: 'Azure Deployment:Create Or Update Resource Group action on Devops'
+  inputs:
+    azureSubscription: 'Devops Azure connection'
+    resourceGroupName: Devops
+    location: 'West Europe'
+    csmFile: template/template.json
+    csmParametersFile: template/parameters.json
