@@ -25,11 +25,7 @@
                         "destinationAddressPrefix": "*",
                         "destinationPortRange": "3389"
                     }
-                }
-            ]
-        },
-        "networkSecurityGroupRules": {
-            "value": [
+                  },
                 {
                     "name": "SSH2",
                     "properties": {
