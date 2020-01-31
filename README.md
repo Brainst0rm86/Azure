@@ -6,5 +6,7 @@
 
 Repo voor het testen van Azure automation
 
+redeploy
+
 
 
